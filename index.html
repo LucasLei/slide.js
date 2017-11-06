@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>渐隐渐现轮播图插件</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+        window.onload = function() {
+            $(function() {
+                $(".nav").slide({
+                    autoPlay: true,
+                    dot: true,
+                    // effect: "slide",
+                    // dotColor: "yellow",
+                    autoPlaySpeed: 3000
+                })
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <div class="nav">
+        <img src="img/1.jpg">
+        <img src="img/2.jpg">
+        <img src="img/3.jpg">
+        <img src="img/4.jpg">
+        <img src="img/5.jpg">
+        <img src="img/6.jpg">
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
